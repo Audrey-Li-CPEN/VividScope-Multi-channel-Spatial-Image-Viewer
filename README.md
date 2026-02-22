@@ -8,6 +8,18 @@
 
 A powerful, professional-grade multichannel MIBI (Multiplexed Ion Beam Imaging) image viewer built with napari, featuring FIJI/ImageJ-style adjustment sliders, advanced overlay capabilities, and intuitive channel management.
 
+## Demo Video
+
+<div align="center">
+
+**Watch how to use VividScope:**
+
+[![VividScope Tutorial](https://img.youtube.com/vi/bt6j5BSK5Wo/maxresdefault.jpg)](https://youtu.be/bt6j5BSK5Wo)
+
+*Click the image above to watch the 2-minute tutorial video*
+
+</div>
+
 ## Features
 
 ### Core Functionality
@@ -48,9 +60,10 @@ You can use VividScope in two ways:
 
 #### Option 1: Download Release (Recommended for Users)
 1. Go to the [Releases](https://github.com/Audrey-Li-CPEN/VividScope-Multi-channel-Spatial-Image-Viewer/releases) page
-2. Download the latest release package
-3. Extract the files
-4. Follow the installation instructions included in the release
+2. Download the appropriate version:
+   - **Windows**: `VividScope.exe` - Double-click to run, no installation required!
+   - **macOS**: `VividScope.app` or `VividScope.dmg` - Open the .app or mount the .dmg
+3. The executables include all dependencies and run standalone
 
 #### Option 2: Developer Mode (For Contributors and Advanced Users)
 1. **Clone the repository:**
