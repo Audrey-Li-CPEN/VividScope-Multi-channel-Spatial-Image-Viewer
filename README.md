@@ -206,19 +206,7 @@ project-root/
 - **tifffile**: >= 2023.1.0
 - **numpy**: >= 1.21.0
 - **qtpy**: >= 2.0.0
-- **PyQt5**: >= 5.15.0 (or PySide6 for commercial distribution)
-
-## Commercial Distribution
-
-This tool uses open-source libraries with permissive licenses (BSD, MIT) for most components. However, **PyQt5** requires a commercial license for proprietary distribution.
-
-### Options for Commercial Use:
-
-1. **PyQt5 Commercial License**: Purchase from [Riverbank Computing](https://www.riverbankcomputing.com/commercial/pyqt)
-2. **PySide6 (Recommended)**: Free LGPL license, suitable for commercial use
-   - Install: `pip install PySide6`
-   - Update `mibi_viewer.py` line 13: Change `'pyqt5'` to `'pyside6'`
-   - Note: On Windows, may require Visual C++ Redistributables
+- **PyQt5**: >= 5.15.0
 
 ## Technical Notes
 
@@ -232,7 +220,6 @@ This tool uses open-source libraries with permissive licenses (BSD, MIT) for mos
 ### Application won't start
 - Ensure all dependencies are installed: `pip install -r requirements.txt`
 - Check Python version: `python --version` (should be 3.8+)
-- On Windows, if using PySide6, install Visual C++ Redistributables
 
 ### Images not loading
 - Verify TIFF files are in the selected folder
@@ -244,13 +231,9 @@ This tool uses open-source libraries with permissive licenses (BSD, MIT) for mos
 - Close other applications to free up memory
 - For very large datasets, consider processing in batches
 
-### Progress bar shows 100% immediately
-- This was a known issue that has been fixed in the latest version
-- Ensure you're using the updated code
-
 ## License
 
-[Specify your license here - e.g., MIT, Apache 2.0, or proprietary]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
@@ -262,6 +245,6 @@ For issues, questions, or feature requests, please open an issue on the [GitHub 
 
 ---
 
-**Built with**: napari, PyQt5/PySide6, NumPy, tifffile
+**Built with**: napari, PyQt5, NumPy, tifffile
 
 **VividScope** - *Multichannel Spatial Navigator*
