@@ -3,7 +3,7 @@
 **Multichannel Spatial Navigator**
 
 <div align="center">
-  <img src="vividscope_icon.png" alt="VividScope Logo" width="128" height="128">
+  <img src="vividscope_icon.png" alt="VividScope Logo" width="256" height="256">
 </div>
 
 A powerful, professional-grade multichannel MIBI (Multiplexed Ion Beam Imaging) image viewer built with napari, featuring FIJI/ImageJ-style adjustment sliders, advanced overlay capabilities, and intuitive channel management.
@@ -42,35 +42,46 @@ A powerful, professional-grade multichannel MIBI (Multiplexed Ion Beam Imaging) 
 - Python 3.8 or higher
 - Windows, macOS, or Linux
 
-### Step 1: Clone or Download
-```bash
-git clone https://github.com/Audrey-Li-CPEN/VividScope-Multi-channel-Spatial-Image-Viewer.git
-cd VividScope-Multi-channel-Spatial-Image-Viewer
-```
+### Installation Options
 
-### Step 2: Create Virtual Environment (Recommended)
-```bash
-# Using conda
-conda create -n mibiview python=3.11
-conda activate mibiview
+You can use VividScope in two ways:
 
-# Or using venv
-python -m venv mibiview
-# On Windows:
-mibiview\Scripts\activate
-# On macOS/Linux:
-source mibiview/bin/activate
-```
+#### Option 1: Download Release (Recommended for Users)
+1. Go to the [Releases](https://github.com/Audrey-Li-CPEN/VividScope-Multi-channel-Spatial-Image-Viewer/releases) page
+2. Download the latest release package
+3. Extract the files
+4. Follow the installation instructions included in the release
 
-### Step 3: Install Dependencies
-```bash
-pip install -r requirements.txt
-```
+#### Option 2: Developer Mode (For Contributors and Advanced Users)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Audrey-Li-CPEN/VividScope-Multi-channel-Spatial-Image-Viewer.git
+   cd VividScope-Multi-channel-Spatial-Image-Viewer
+   ```
 
-### Step 4: Run the Application
-```bash
-python mibi_viewer.py
-```
+2. **Create a virtual environment (Recommended):**
+   ```bash
+   # Using conda
+   conda create -n mibiview python=3.11
+   conda activate mibiview
+   
+   # Or using venv
+   python -m venv mibiview
+   # On Windows:
+   mibiview\Scripts\activate
+   # On macOS/Linux:
+   source mibiview/bin/activate
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the application:**
+   ```bash
+   python mibi_viewer.py
+   ```
 
 **Note**: The VividScope icon files (`vividscope_icon.png` and `vividscope_icon.ico.png`) are included in the repository and will be automatically used by the application.
 
