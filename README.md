@@ -8,15 +8,15 @@
 
 A powerful, professional-grade multichannel MIBI (Multiplexed Ion Beam Imaging) image viewer built with napari, featuring FIJI/ImageJ-style adjustment sliders, advanced overlay capabilities, and intuitive channel management.
 
-## Demo Video
+## 🎥 Demo Video
 
 <div align="center">
 
 **Watch how to use VividScope:**
 
-[![VividScope Tutorial](https://img.youtube.com/vi/bt6j5BSK5Wo/maxresdefault.jpg)](https://youtu.be/bt6j5BSK5Wo)
+[![VividScope Tutorial - Click to Watch](https://img.youtube.com/vi/bt6j5BSK5Wo/maxresdefault.jpg)](https://youtu.be/bt6j5BSK5Wo)
 
-*Click the image above to watch the 2-minute tutorial video*
+*Click the thumbnail above to watch the 2-minute tutorial video on YouTube*
 
 </div>
 
