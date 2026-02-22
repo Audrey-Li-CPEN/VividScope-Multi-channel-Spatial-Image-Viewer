@@ -14,9 +14,17 @@ A powerful, professional-grade multichannel MIBI (Multiplexed Ion Beam Imaging) 
 
 **Watch how to use VividScope:**
 
-[![VividScope Tutorial - Click to Watch](https://img.youtube.com/vi/bt6j5BSK5Wo/maxresdefault.jpg)](https://youtu.be/bt6j5BSK5Wo)
+<a href="https://youtu.be/bt6j5BSK5Wo" target="_blank">
+  <img src="https://img.youtube.com/vi/bt6j5BSK5Wo/maxresdefault.jpg" alt="VividScope Tutorial - Click to Play" style="width:100%;max-width:640px;border-radius:8px;cursor:pointer;box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+</a>
 
-*Click the thumbnail above to watch the 2-minute tutorial video on YouTube*
+<div style="margin-top:10px;">
+  <a href="https://youtu.be/bt6j5BSK5Wo" target="_blank" style="display:inline-block;padding:10px 20px;background-color:#FF0000;color:white;text-decoration:none;border-radius:5px;font-weight:bold;text-decoration:none;">
+    ▶️ Play on YouTube
+  </a>
+</div>
+
+*Click the image or button above to watch the 2-minute tutorial video*
 
 </div>
 
