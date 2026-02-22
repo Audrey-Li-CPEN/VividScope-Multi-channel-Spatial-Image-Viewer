@@ -1,0 +1,10 @@
+napari>=0.4.18
+tifffile>=2023.1.0
+numpy>=1.21.0
+qtpy>=2.0.0
+PyQt5>=5.15.0
+Pillow>=9.0.0
+# For commercial distribution, consider PySide6 (LGPL license, free for commercial use):
+# PySide6>=6.5.0
+# Note: PySide6 on Windows may require Visual C++ Redistributables
+

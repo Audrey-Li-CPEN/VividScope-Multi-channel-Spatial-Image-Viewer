@@ -1,0 +1,139 @@
+# MIBI Viewer - Git Ignore File
+# Protects privacy-sensitive FOV (Field of View) data
+
+# FOV Data Folders - Privacy Sensitive
+# Ignore all folders matching FOV patterns
+fov-*/
+FOV-*/
+*scan-*/
+*Scan-*/
+
+# Common FOV naming patterns
+**/fov-*/
+**/FOV-*/
+**/*-scan-*/
+**/*-Scan-*/
+
+# TIFF Image Files (may contain sensitive data)
+*.tiff
+*.tif
+*.tiff.gz
+*.tif.gz
+
+# But allow icon files (they should be tracked)
+!vividscope_icon.png
+!vividscope_icon.ico.png
+!vividscope_icon.ico
+!icon.png
+!icon.ico
+!resources/icons/*.png
+!resources/icons/*.ico
+
+# Alternative: Only ignore in specific directories
+# Uncomment if you want to allow TIFF files in some locations
+# /data/fov-*/
+# /data/*scan-*/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+mibiview/
+mibiview_pyside/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Napari cache
+.napari/
+
+# Large data files (if any)
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Documentation builds
+docs/_build/
+site/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Development/Utility Scripts (not needed for end users)
+create_icon.py
+
